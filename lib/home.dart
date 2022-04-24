@@ -3,7 +3,7 @@ import 'package:fooderlich/auther_card.dart';
 import 'package:fooderlich/recipe_card.dart';
 
 class Home extends StatefulWidget {
-  Home({Key? key}) : super(key: key);
+  const Home({Key? key}) : super(key: key);
 
   @override
   State<Home> createState() => _HomeState();
@@ -20,7 +20,6 @@ class _HomeState extends State<Home> {
   ];
 
   void _onItemTapped(int index) {
-    print(index);
     setState(() {
       _selectedIndex = index;
     });

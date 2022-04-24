@@ -29,7 +29,7 @@ class ChefCard extends StatelessWidget {
                 width: 8,
               ),
               Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,                    
                 children: [
                   Text(
                     authorName,
