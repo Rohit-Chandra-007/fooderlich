@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fooderlich/auther_card.dart';
 import 'package:fooderlich/recipe_card.dart';
+import 'package:fooderlich/recipe_trends_card.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -14,9 +15,7 @@ class _HomeState extends State<Home> {
   static List<Widget> pages = [
     const RecipeCard(),
     const AutherCard(),
-    Container(
-      color: Colors.blue,
-    ),
+    const RecipeTrendsCard()
   ];
 
   void _onItemTapped(int index) {
